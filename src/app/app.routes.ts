@@ -28,6 +28,9 @@ export const routes: Route[] = [
         },
         {
             path:'customer-management',loadChildren: () => import('./modules/customer-management/customer-management.routes')
+        },
+        {
+            path:'reporting',loadChildren: () => import('./modules/reporting/reporting.routes')
         }
 
       ]
